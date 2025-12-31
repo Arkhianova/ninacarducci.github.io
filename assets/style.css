@@ -102,7 +102,7 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #595959;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -147,7 +147,10 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-
+  font-size: calc(1.375rem + 1.5vw);
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
 }
 .quote__author {
 	font-family: Spectral;
@@ -354,3 +357,17 @@ input[type="submit"] {
 	}
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+  color: #595959;
+  opacity: 0.5;
+}
+
+.carousel-control-prev:hover, .carousel-control-prev:focus,
+.carousel-control-next:hover,
+.carousel-control-next:focus {
+  color: #c81f1f;
+  text-decoration: none;
+  outline: 0;
+  opacity: 0.9;
+}
