@@ -140,6 +140,7 @@ body {
 .quote {
 	font-family: 'Spectral';
 	font-style: italic;
+  width: 70%;
 	margin: auto;
 	padding-block: 3em;
 }
@@ -376,4 +377,9 @@ input[type="submit"] {
   text-decoration: none;
   outline: 0;
   opacity: 0.9;
+}
+
+.carousel-item img {
+  height: auto;
+   aspect-ratio: 1920 / 888;
 }
